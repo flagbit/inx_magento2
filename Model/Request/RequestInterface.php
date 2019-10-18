@@ -21,7 +21,7 @@ interface RequestInterface {
     /**
      * @return array
      */
-    public function sendRequest(): array;
+    public function sendRequest(): ?array;
 
     /**
      * @return int

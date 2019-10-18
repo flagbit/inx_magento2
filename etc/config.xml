@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <inxmail>
+            <general>
+                <api_url>http://example.com</api_url>
+                <api_user>user</api_user>
+                <api_password>password</api_password>
+                <api_listid>1</api_listid>
+            </general>
+        </inxmail>
+    </default>
+</config>

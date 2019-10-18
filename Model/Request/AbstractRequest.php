@@ -138,7 +138,7 @@ class AbstractRequest implements RequestInterface
     /**
      * @return array
      */
-    public function sendRequest(): array
+    public function sendRequest(): ?array
     {
         $result = null;
         $client = $this->getApiClient();

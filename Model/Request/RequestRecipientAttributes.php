@@ -58,7 +58,7 @@ class RequestRecipientAttributes extends AbstractRequest
     /**
      * @return array
      */
-    public function sendRequest(): array
+    public function sendRequest(): ?array
     {
 
         $client = $this->getApiClient();
